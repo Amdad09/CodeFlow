@@ -3,7 +3,7 @@
     /* colors */
     --clr-primary: #2563eb;
     --clr-primary-dark: #1d4ed8;
-
+    --clr-primary-light: #dbeafe;
     --clr-heading: #0f172a;
     --clr-text: #475569;
 
@@ -15,7 +15,7 @@
     --clr-white: #ffffff;
 
     /* typography */
-    --ff-primary: 'inter', sans-serif;
+    --ff-primary: 'Inter', sans-serif;
 
     /* font-size */
     --fs-300: 0.875rem;
