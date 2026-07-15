@@ -36,7 +36,8 @@
 }
 
 .card{
-    background: var(--clr-white);
+    padding: var(--space-8);
+    background: var(--clr-surface);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
@@ -49,7 +50,9 @@
 
 .badge{
 
-    display:inline-block;
+    display:inline-flex;
+    align-items: center;
+    gap: var(--space-2);
 
     padding:0.5rem 1rem;
 

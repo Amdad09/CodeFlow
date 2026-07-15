@@ -1,0 +1,25 @@
+@media (max-width: 768px){
+    .hero-wrapper{
+        grid-template-columns: 1fr;
+        gap: var(--space-12);
+        text-align: center;
+    }
+
+    .hero-content{
+        align-items: center;
+        margin-inline: auto;
+    }
+
+    .hero-actions{
+        justify-content: center;
+    }
+
+    .hero{
+        padding-block: var(--space-16);
+    }
+
+    .hero-content .badge{
+        align-self: center;
+    }
+
+}
